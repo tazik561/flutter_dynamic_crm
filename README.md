@@ -40,12 +40,11 @@ class AadOAuthConfig {
   AadOAuthConfig._();
 
   // base url
-  static const String tenant = '0fcd2810-9edc-41c4-be92-6c6d78468e7a';
-  static const String clientId = 'e901ac4c-9b37-4ec8-ba87-c6703359404f';
-  static const String scope =
-      'https://org2c9fce96.api.crm4.dynamics.com/user_impersonation';
+  static const String tenant = 'YOUR_TENANT_ID';
+  static const String clientId = 'YOUR_CLIENT_ID';
+  static const String scope = 'Add your Dynamics CRM Api';
   static const String redirectUri =
-      'https://login.live.com/oauth20_desktop.srf';
+      'your redirect url available in azure portal';
 }
 ```
 ### Azure Active Directory OAuth 
