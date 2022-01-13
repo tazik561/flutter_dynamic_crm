@@ -1,7 +1,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.rent_ready_app">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+
    <application
-        android:label="rent_ready_app"
+        android:label="RentReady"
         android:icon="@mipmap/ic_launcher"
         android:usesCleartextTraffic="true">
         <activity
